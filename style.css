@@ -1,0 +1,39 @@
+body {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+    margin: 0;
+	background-image: url("https://i.pinimg.com/564x/1c/36/0a/1c360af4b4ad0ca8c62b850129023130.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+pre {
+	text-align: center;
+    background-color: #1e1e2f;
+    color: #f0f0f0;
+    font-family: 'Courier New', monospace;
+    border: 3px solid #ff0054;
+    padding: 15px;
+    box-shadow: 0 0 10px rgba(255, 0, 84, 0.8);
+    text-shadow: 2px 2px #00e0ff;
+    border-radius: 10px;
+}
+
+.type {
+    color: #00e0ff;
+    font-weight: bold;
+    font-size: 1;
+    text-shadow: none;
+}
+
+.pic {
+    width: 400px;
+    height: auto;
+    display: block;
+    margin: 0 auto 10px;
+    border-radius: 15px;
+    box-shadow: 0 0 5px rgba(255, 0, 84, 0.5);
+    border: 3px solid #00e0ff;
+}
